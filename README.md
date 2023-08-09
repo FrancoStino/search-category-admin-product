@@ -12,5 +12,3 @@ Questo progetto WordPress include codice per aggiungere uno script JavaScript pe
 
 1. Copia il file `pcswc-admin.js` nella directory `functions/search-category-admin-product/js/` del tuo tema figlio.
 2. Utilizza il codice fornito nel file `search-category-admin-product.php` per includere lo script nell'area di amministrazione.
-
-```php
