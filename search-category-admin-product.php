@@ -3,11 +3,11 @@
 // Definiamo una funzione per l'inclusione degli script nell'area di amministrazione
 function pfw_enqueue_admin_scripts() {
     // Otteniamo il percorso completo dello script JavaScript pcswc-admin.js nel tema figlio
-    $script_path = get_stylesheet_directory_uri() . '/search-category-admin-product/js/pcswc-admin.js';
+    $script_path = get_stylesheet_directory_uri() . '/functions/search-category-admin-product/js/pcswc-admin.js';
     
     // Otteniamo il timestamp dell'ultima modifica dello script pcswc-admin.js
     // Utilizziamo il percorso del file locale, non l'URL, con la funzione filemtime()
-    $script_mtime = filemtime(get_stylesheet_directory() . '/search-category-admin-product/js/pcswc-admin.js');
+    $script_mtime = filemtime(get_stylesheet_directory() . '/functions/search-category-admin-product/js/pcswc-admin.js');
 
     // Includiamo lo script pfw-admin, specificando dipendenze come 'jquery'
     // Utilizziamo il percorso e il timestamp dell'ultima modifica dello script
